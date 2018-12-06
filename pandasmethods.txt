@@ -1,0 +1,50 @@
+Method	Description
+cat()	Concatenate strings
+split()	Split strings on delimiter
+rsplit()	Split strings on delimiter working from the end of the string
+get()	Index into each element (retrieve i-th element)
+join()	Join strings in each element of the Series with passed separator
+get_dummies()	Split strings on the delimiter returning DataFrame of dummy variables
+contains()	Return boolean array if each string contains pattern/regex
+replace()	Replace occurrences of pattern/regex/string with some other string or the return value of a callable given the occurrence
+repeat()	Duplicate values (s.str.repeat(3) equivalent to x * 3)
+pad()	Add whitespace to left, right, or both sides of strings
+center()	Equivalent to str.center
+ljust()	Equivalent to str.ljust
+rjust()	Equivalent to str.rjust
+zfill()	Equivalent to str.zfill
+wrap()	Split long strings into lines with length less than a given width
+slice()	Slice each string in the Series
+slice_replace()	Replace slice in each string with passed value
+count()	Count occurrences of pattern
+startswith()	Equivalent to str.startswith(pat) for each element
+endswith()	Equivalent to str.endswith(pat) for each element
+findall()	Compute list of all occurrences of pattern/regex for each string
+match()	Call re.match on each element, returning matched groups as list
+extract()	Call re.search on each element, returning DataFrame with one row for each element and one column for each regex capture group
+extractall()	Call re.findall on each element, returning DataFrame with one row for each match and one column for each regex capture group
+len()	Compute string lengths
+strip()	Equivalent to str.strip
+rstrip()	Equivalent to str.rstrip
+lstrip()	Equivalent to str.lstrip
+partition()	Equivalent to str.partition
+rpartition()	Equivalent to str.rpartition
+lower()	Equivalent to str.lower
+upper()	Equivalent to str.upper
+find()	Equivalent to str.find
+rfind()	Equivalent to str.rfind
+index()	Equivalent to str.index
+rindex()	Equivalent to str.rindex
+capitalize()	Equivalent to str.capitalize
+swapcase()	Equivalent to str.swapcase
+normalize()	Return Unicode normal form. Equivalent to unicodedata.normalize
+translate()	Equivalent to str.translate
+isalnum()	Equivalent to str.isalnum
+isalpha()	Equivalent to str.isalpha
+isdigit()	Equivalent to str.isdigit
+isspace()	Equivalent to str.isspace
+islower()	Equivalent to str.islower
+isupper()	Equivalent to str.isupper
+istitle()	Equivalent to str.istitle
+isnumeric()	Equivalent to str.isnumeric
+isdecimal()	Equivalent to str.isdecimal
